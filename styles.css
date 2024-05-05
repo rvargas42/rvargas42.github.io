@@ -1,0 +1,44 @@
+@font-face {
+	font-family: myFirstFont;
+	src: url(sansation_light.woff);
+  }
+
+body{
+	background: linear-gradient(90deg, #22343a 9%,#000000 100%);;
+}
+#Contact-Information-Card{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	border: solid #c3dbc5;
+	height: 4vw;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px #000000;
+	margin-top: 2%;
+	margin-right: 15%;
+	margin-left: 15%;
+	background-color: #22343a
+}
+
+#Links{
+	display: flex;
+	height: 100%;
+	width: 50%;
+	border: solid #c3dbc5;
+	margin-left:10px;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+#Links #Logo{
+	height: 100%;
+	float: right;
+}
+
+#Name{
+	margin-top: 5px;
+	font-size: 2vw;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: 10%;
+	color: #c3dbc5
+}
