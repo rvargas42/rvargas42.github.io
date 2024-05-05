@@ -107,13 +107,13 @@ body{
 #level-bar #advanced{
 	color: #000000;
 	margin-left: 5%;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	margin-right: auto;
 }
 #level-bar #beginner{
 	color: #000000;
 	margin-right: 5%;
-	font-size: 2vw;;
+	font-size: 1.5vw;
 }
 
 #level-bar #bar{
