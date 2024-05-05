@@ -3,17 +3,25 @@
 	src: url("SourceCodePro-VariableFont_wght.ttf") format("truetype"); 
 }
 
+.darkmode body {
+	background-color: #414141;
+}
 
 h1, h2, h3, h4, h5, h6, body, p, a {
 	color: rgb(255, 255, 255);
 	font-family: "SourceCodePro";
 }
 
+.custom-cursor{
+	cursor: url('Icons/fingerCursor.png'), pointer;
+}
+
 body{
 	background: linear-gradient(90deg, #ffffff 0%,#ffffff 100%);
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
 }
+
 
 #portfolio{
 	position: relative;
@@ -23,12 +31,28 @@ body{
 }
 
 #Contact-Information-Card{
+	border: solid;
+	position: -webkit-sticky;
+	position: sticky;
 	display: flex;
 	height: 4vw;
 	border-radius: 10px;
 	box-shadow: 5px 5px 5px #000000;
 	margin-top: 2%;
 	background-color: #0d1b1e
+}
+
+#lightMode {
+	align-self: center;
+  	flex-shrink: 0;
+	align-content: center;
+	align-items: center;
+	margin-left: auto;
+}
+
+#lightMode input{
+	height: 1vw;
+	width: 2vw;
 }
 
 #Links{
