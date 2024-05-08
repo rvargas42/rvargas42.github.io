@@ -1,8 +1,4 @@
-function toggleContent() {
-  var cvContent = document.getElementById("cvContent");
-  if (cvContent.style.display === "none") {
-    cvContent.style.display = "block";
-  } else {
-    cvContent.style.display = "none";
-  }
+function toggleContent(button) {
+    var content = button.nextElementSibling;
+    content.style.display = (content.style.display === 'none') ? 'block' : 'none';
 }

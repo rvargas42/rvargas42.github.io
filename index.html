@@ -13,10 +13,6 @@
 	<div id="portfolio">
 		<div id="Contact-Information-Card">
 			<img src="https://avatars.githubusercontent.com/u/144903703?v=4" alt="light" style="margin-left: 5%;height: 2vw">
-			<div class="form-check form-switch" id="lightMode">
-				<input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-			</div>
-			<img src="Icons/lightbulb.svg" alt="light" style="height: 2vw">
 			<div id ="Links">
 				<a id="Logo" href="mailto: ravargas.42t@gmail.com"><img id="ContactLogo" src="Logos/gmail.png" alt="email"></a>
 				<a id="Logo" href="https://github.com/rvargas42"><img id="logoImg" src="Logos/githubLogo.svg" alt="github"></a>
@@ -24,36 +20,40 @@
 				<a id="Logo" href="https://twitter.com/RavargasT36816"><img id="" src="Logos/Xlogo.png" alt="X"></a>
 			</div>
 		</div>
-		<div id="cvSection" class="card">
-			<button onclick="toggleContent()">Brief Summary About Myself</button>
+		<div id="cvSection" class="card cvSection">
+			<button onclick="toggleContent(this)">Brief Summary About Myself</button>
 			<div id="cvContent"  style="display: none;">
 				<p>I am a passionate learner specializing in Software engieneering and AI. In June 2023 as a recent BBA and Law graduate i found myself wanting to shift to a more technical track.</p>
 			</div>
 		</div>
-		<div id="cvSection">
-			<h2>Education</h2>
+		<div id="cvSection" class="cvSection">
+			<button onclick="toggleContent(this)">Education</button>
+			<div id="cvContent"  style="display: none;">
+				<p>Software Engineering - 42Madrid (2023-now)</p>
+				<p>BBA and Law - CUNEF (2017/23)</p>
+			</div>
 		</div>
-		<p class="cvSection-text">Software Engineering - 42Madrid (2023-now)</p>
-		<p class="cvSection-text">BBA and Law - CUNEF (2017/23)</p>
-		<div id="cvSection">
-			<h2>Technology Stack</h2>
+		<div id="cvSection" class="cvSection">
+			<button onclick="toggleContent(this)">Technology Stack</button>
+			<div id="cvContent"  style="display: none;">
+				<div id="level-bar"><span id="advanced"><b>Advanced</b></span><div id="bar"></div><span id="beginner"><b>Beginner</b></span></div>
+				<table id="languages">
+					<tr>
+						<td><img src="Icons/brand-python.svg" alt="python"></td>
+						<td><img src="Icons/mongodb.svg" alt="nosql"></td>
+						<td><img src="Icons/SQLlogo.svg" alt="sql"></td>
+						<td><img src="Icons/c-letter.svg" alt="C"></td>
+					</tr>
+					<tr>
+						<td  style="padding-right: 10px;"></td>
+						<td  style="padding-right: 10px;"></td>
+						<td  style="padding-right: 10px;"></td>
+						<td  style="padding-right: 10px;"></td>
+						<td><img src="Icons/bash-icon-svgrepo-com.svg" alt="C"></td>
+					</tr>
+				</table>
+			</div>
 		</div>
-		<div id="level-bar"><span id="advanced"><b>Advanced</b></span><div id="bar"></div><span id="beginner"><b>Beginner</b></span></div>
-		<table id="languages">
-			<tr>
-				<td><img src="Icons/brand-python.svg" alt="python"></td>
-				<td><img src="Icons/mongodb.svg" alt="nosql"></td>
-				<td><img src="Icons/SQLlogo.svg" alt="sql"></td>
-				<td><img src="Icons/c-letter.svg" alt="C"></td>
-			</tr>
-			<tr>
-				<td  style="padding-right: 10px;"></td>
-				<td  style="padding-right: 10px;"></td>
-				<td  style="padding-right: 10px;"></td>
-				<td  style="padding-right: 10px;"></td>
-				<td><img src="Icons/bash-icon-svgrepo-com.svg" alt="C"></td>
-			</tr>
-		</table>
 		<div id="cvSection">
 			<h2>Projects</h2>
 		</div>
