@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6, body, p, a {
 body{
 	font: "SourceCodePro";
 	background-color: #415863;
-	background: linear-gradient(90deg, #1e1e1e 5%,#002251 100%);
+	background: linear-gradient(90deg, #0d1b1e 5%,#082753 100%);
 	margin-left: 5%;
 	margin-right: 5%;
 }
