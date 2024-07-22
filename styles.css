@@ -100,16 +100,22 @@ body{
 
 #cvSection{
 	align-items: center;
-	padding: 1px;
+	padding: 5px;
 	font-size: 2vw;
 	margin-top: 1vw;
-	margin-bottom: 2vw;
-	border-radius: 10px;
+	margin-bottom: 1vw;
+	border-radius: 6px;
 	background-color: #22343a;
 	box-shadow: 5px 5px 5px #000000;
 }
 
+#cvContent{
+	margin-top: 10px;
+	text-align: center;
+}
+
 #cvSection button{
+	display: flex;
 	color: white;
 	font-weight: 600;
 	width: 100%;
@@ -157,20 +163,16 @@ body{
 }
 
 #languages{
-	margin-top: 0;
-	display: inline;
-	align-items: center;
-	margin-left: 10%;
-}
-
-#languages td{
-	width: auto;
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	margin-top: 1.5vh;
 }
 
 #languages td img{
-	margin-right: 0.5vw;
 	display: inline;
-	height: 3vw;
+	margin-right: 10px;
+	max-width: 100%;
 }
 
 #level-bar{
