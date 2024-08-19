@@ -200,12 +200,10 @@ body{
 	display: inline-flex;
 	width: 90%;
 	justify-content:space-between;
-	border: 1px white solid;
 	margin-top: 1.5vh;
 }
 
 #languages img{
-	border: 1px white solid;
 	display: inline;
 	width: 5vw;
 }
