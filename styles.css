@@ -99,6 +99,7 @@ body{
 }
 
 #cvSection{
+	width: inherit;
 	align-items: center;
 	padding: 5px;
 	font-size: 2vw;
@@ -112,6 +113,7 @@ body{
 #cvContent{
 	margin-top: 10px;
 	text-align: center;
+	width: inherit;
 }
 
 #cvSection button{
@@ -162,20 +164,45 @@ body{
 
 }
 
-#languages{
-	display: flex;
-	justify-content: space-evenly;
+#cvContent .Education{
+	display:flex;
 	width: 100%;
+}
+
+#cvContent .Education img{
+	image-rendering: pixelated;
+	border: 1px white solid;
+}
+
+.square-img{
+	width: 10%;
+}
+
+.square-img img{
+	width: fit-content;
+}
+
+.Education{
+	width: 100%;
+	border: 1px white solid
+}
+
+#languages{
+	display: inline-flex;
+	width: 90%;
+	justify-content:space-between;
+	border: 1px white solid;
 	margin-top: 1.5vh;
 }
 
-#languages td img{
+#languages img{
+	border: 1px white solid;
 	display: inline;
-	margin-right: 10px;
-	max-width: 100%;
+	width: 5vw;
 }
 
 #level-bar{
+	width: inherit;
 	align-items: center;
 	margin-top:5px;
 	display: flex;
