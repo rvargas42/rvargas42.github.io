@@ -21,7 +21,7 @@
 			</div>
 		</div>
 		<div id="cvSection" class="card">
-			<button onclick="toggleContent(this)"><h2>About</h2></button>
+			<button onclick="toggleContent(this)"><h2 class="sec-tittle">About</h2></button>
 			<div id="cvContent"  style="display: none;">
 				<p>I am a passionate learner specializing in Software Engineering and AI. During my studies, I found a great interest in math and finance subjects. This interest led me to discover the field of Financial Engineering, which combines various disciplines such as statistics, programming, and finance.</p>
 				<p>Eager to enter this sector in the future, I started learning basic programming with Python, including Object-Oriented Programming (OOP). By the end of my degree, equipped with a broader set of programming skills and thanks to WQU, I was able to enroll in the DS lab. Through eight practical projects in the lab, I gained foundational knowledge in Data Science.</p>
@@ -31,30 +31,30 @@
 			</div>
 		</div>
 		<div id="cvSection">
-			<button onclick="toggleContent(this)"><h2>Education</h2></button>
+			<button onclick="toggleContent(this)"><h2 class="sec-tittle">Education</h2></button>
 			<div id="cvContent"  style="display: block">
 				<div class="Education">
 					<div class="square-img">
 						<img src="Logos/42-Final-sigle-seul.svg" alt="42">
 					</div>
-					<div>
-						<p>Software Engineering - 42Madrid (2023-now)</p>
-						<p style="margin-left: 10%; font-size: 1vw;">Skills: C | Algorithms & Data Structures | Bash Scripting | Makefiles | Compilers </p>
+					<div class="education-desc">
+						<p style="font-size: medium;">Software Engineering - 42Madrid <span class="date">(Sep23 - now)</span></p>
+						<p style="font-size: xx-small;">C | Algorithms & Data Structures | Bash Scripting | Makefiles | Compilers</p>
 					</div>
 				</div>
 				<div class="Education">
 					<div class="square-img">
 						<img src="Logos/CUNEF_Universidad.png" alt="42">
 					</div>
-					<div>
-						<p>BBA and Law - CUNEF (2017/23)</p>
-						<p style="margin-left: 10%; font-size: 1vw;">Skills: Finance | Accounting</p>
+					<div class="education-desc">
+						<p style="font-size: medium;">BBA and Law - CUNEF (2017/23)</p>
+						<p style="font-size: xx-small;">Finance | Accounting</p>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div id="cvSection">
-			<button onclick="toggleContent(this)"><h2>Tech Stack</h2></button>
+			<button onclick="toggleContent(this)"><h2 class="sec-tittle">Tech Stack</h2></button>
 			<div id="cvContent" style="display: block;">
 				<div id="level-bar"><span id="advanced"><b>Advanced</b></span><div id="bar"></div><span id="beginner"><b>Beginner</b></span></div>
 				<div id="languages">
@@ -75,21 +75,56 @@
 			</div>
 		</div>
 		<div id="cvSection">
-			<button onclick="toggleContent(this)"><h2>Projects</h2></button>
+			<button onclick="toggleContent(this)"><h2 class="sec-tittle">Projects</h2></button>
 			<div id="cvContent" style="display: block;">
-				Projects
+				<div class="project"></div>
 			</div>
 		</div>
 		<div id="cvSection">
-			<button onclick="toggleContent(this)"><h2>Experience</h2></button>
+			<button onclick="toggleContent(this)"><h2 class="sec-tittle">Experience</h2></button>
 			<div id="cvContent" style="display: block;">
-				Experience
+				<div class="experience"></div>
 			</div>
 		</div>
 		<div id="cvSection">
-			<button onclick="toggleContent(this)"><h2>Certificates</h2></button>
+			<button onclick="toggleContent(this)"><h2 class="sec-tittle">Certificates</h2></button>
 			<div id="cvContent" style="display: block;">
-				Experience
+				<div class="certificate">
+					<div class="square-img">
+						<a href="https://www.credly.com/badges/ebb9be48-d4ae-4c85-9559-37248ddda606/public_url"><img src="Logos/wqu_badge.png" alt="wqu"></a>
+					</div>
+					<div class="cert-desc">
+						<p style="font-size: medium;">Applied Data Science Lab</p>
+						<p style="font-size: x-small;">World Quant University</p>
+					</div>
+				</div>
+				<div class="certificate">
+					<div class="square-img">
+						<a href="https://www.credly.com/badges/ebb9be48-d4ae-4c85-9559-37248ddda606/public_url"><img src="Logos/DLai.png" alt="wqu"></a>
+					</div>
+					<div class="cert-desc">
+						<p style="font-size: medium;">Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning</p>
+						<p style="font-size: x-small;">DeepLearning.ai</p>
+					</div>
+				</div>
+				<div class="certificate">
+					<div class="square-img">
+						<a href="https://www.credly.com/badges/ebb9be48-d4ae-4c85-9559-37248ddda606/public_url"><img src="Logos/DLai.png" alt="wqu"></a>
+					</div>
+					<div class="cert-desc">
+						<p style="font-size: medium;">Convolutional Neural Networks in TensorFlow</p>
+						<p style="font-size: x-small;">DeepLearning.ai</p>
+					</div>
+				</div>
+				<div class="certificate">
+					<div class="square-img">
+						<a href="https://www.credly.com/badges/ebb9be48-d4ae-4c85-9559-37248ddda606/public_url"><img src="Logos/DLai.png" alt="wqu"></a>
+					</div>
+					<div class="cert-desc">
+						<p style="font-size: medium;">Natural Language Processing in TensorFlow</p>
+						<p style="font-size: x-small;">DeepLearning.ai</p>
+					</div>
+				</div>
 			</div>
 		</div>
 		

@@ -39,6 +39,14 @@ body{
 	width: 100%;
 }
 
+.sec-tittle{
+	font-size: x-large;
+	margin-top: 1%;
+	font-weight: 600;
+	text-align: left;
+
+}
+
 #Contact-Information-Card{
 	position: sticky;
 	z-index: 1000;
@@ -113,7 +121,7 @@ body{
 #cvContent{
 	margin-top: 10px;
 	text-align: center;
-	width: inherit;
+	width: 100%;
 }
 
 #cvSection button{
@@ -148,14 +156,6 @@ body{
 	background: linear-gradient(90deg, #0d1b1e 5%,#457EBB 100%);
 }
 
-#cvSection h2{
-	font-size: 2vw;
-	margin-top: 1%;
-	font-weight: 600;
-	text-align: left;
-	margin-left: 5%;
-}
-
 #cvSection p{
 	font-size: 1.5vw;
 	margin-left: 5%;
@@ -176,8 +176,8 @@ body{
 }
 
 .square-img{
-	height: 50px;
-	width: 50px;
+	height: 45px;
+	width: 45px;
 }
 
 .square-img img{
@@ -205,7 +205,7 @@ body{
 
 #languages img{
 	display: inline;
-	width: 5vw;
+	width: 4vw;
 }
 
 #level-bar{
@@ -244,4 +244,18 @@ body{
 
 #pdfIframe{
 	display: none;
+}
+
+.certificate{
+	margin-left: 5%;
+	width:inherit;
+	display: inline-flex;
+}
+
+.certificate p{
+	padding-right: 10%;
+}
+
+.cert-desc{
+	width: inherit;
 }
